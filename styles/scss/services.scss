@@ -94,11 +94,11 @@ a, a:hover, a:visited, a:active, a:link
 }
 a:hover
 {
-	color: #20d34a !important;
+	color: #EB1A1A !important;
 }
 ::selection
 {
-	color: #20d34a;
+	color: #EB1A1A;
 }
 p::selection
 {
@@ -232,7 +232,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 3px;
-	background: #20d34a;
+	background: #EB1A1A;
 	content: '';
 	z-index: 0;
 	-webkit-transition: all 400ms cubic-bezier(.33,.68,.59,.99);
@@ -281,7 +281,7 @@ section
 	top: 0;
 	width: 54px;
 	height: 3px;
-	background: #20d34a;
+	background: #EB1A1A;
 	content: '';
 }
 .section_title_light h2
@@ -315,7 +315,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #283290;
+	background: #232323;
 }
 .top_bar_content
 {
@@ -344,7 +344,7 @@ section
 .emergencies
 {
 	height: 100%;
-	background: #ff0030;
+	background: #EB1A1A;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 700;
@@ -398,6 +398,16 @@ section
 /*********************************
 3.3 Logo
 *********************************/
+.about_image
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.about_image img
+{
+	max-width: 100%;
+}
 
 .logo_container_outer
 {
@@ -447,7 +457,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #20d34a;
+	background: #EB1A1A;
 }
 .logo
 {
@@ -574,7 +584,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #EB1A1A;
 }
 .menu_close_container
 {
@@ -622,7 +632,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #20d34a;
+	background: #EB1A1A;
 }
 .menu_extra
 {
@@ -635,7 +645,7 @@ section
 .menu_appointment a
 {
 	font-size: 13px;
-	color: #283290;
+	color: #232323;
 }
 .menu_emergencies
 {
@@ -649,6 +659,7 @@ section
 
 .home
 {
+	background-color: #232323;
 	width: 100%;
 	height: 473px;
 }
@@ -671,11 +682,11 @@ section
 {
 	font-size: 30px;
 	font-weight: 900;
-	color: #FFFFFF;
+	color: white;
 }
 .home_title span
 {
-	color: #20d34a;
+	color: #EB1A1A;
 }
 .breadcrumbs
 {
@@ -699,7 +710,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #EB1A1A;
 }
 
 /*********************************
@@ -732,7 +743,7 @@ section
 }
 .service:hover
 {
-	background: #283290;
+	background: #232323;
 }
 .service::after
 {
@@ -742,7 +753,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #20d34a;
+	background: #EB1A1A;
 	content: '';
 	visibility: hidden;
 	opacity: 0;
@@ -777,7 +788,7 @@ section
 .svg rect,
 .svg polygon
 {
-	fill: #20d34a;
+	fill: #EB1A1A;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -805,7 +816,7 @@ section
 }
 .service_title
 {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 700;
 	color: #232323;
 	padding-top: 41px;
@@ -824,7 +835,7 @@ section
 	transform: translateX(-50%);
 	width: 54px;
 	height: 3px;
-	background: #20d34a;
+	background: #EB1A1A;
 	content: '';
 }
 .service:hover .service_title
@@ -843,7 +854,7 @@ section
 .features
 {
 	width: 100%;
-	background: #283290;
+	background: #232323;
 	padding-top: 95px;
 	padding-left: 62px;
 	padding-right: 63px;
@@ -922,48 +933,6 @@ section
 }
 
 /*********************************
-9. CTA
-*********************************/
-
-.cta
-{
-	width: 100%;
-	padding-top: 131px;
-	padding-bottom: 116px;
-}
-.cta_background
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.cta_content
-{
-	max-width: 768px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.cta_content h2
-{
-	font-size: 48px;
-	font-weight: 700;
-	color: #FFFFFF;
-}
-.cta_content p
-{
-	font-size: 14px;
-	font-weight: 500;
-	color: #FFFFFF;
-	margin-top: -3px;
-}
-.cta_button
-{
-	margin-top: 38px;
-}
-
-/*********************************
 10. Footer
 *********************************/
 
@@ -974,7 +943,7 @@ section
 .footer_container
 {
 	width: 100%;
-	background: #060b3a;
+	background: #232323;
 	padding-bottom: 77px;
 }
 .footer_logo_container
@@ -990,7 +959,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 4px;
-	background: #20d34a;
+	background: #EB1A1A;
 	content: '';
 }
 .footer_logo_container a
@@ -1031,7 +1000,7 @@ section
 	display: inline-block;
 	width: 31px;
 	height: 31px;
-	background: #20d34a;
+	background: #EB1A1A;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -1096,7 +1065,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #20d34a;
+	color: #EB1A1A;
 	margin-top: 7px;
 }
 .footer_news ul li:not(:last-child)
@@ -1133,7 +1102,7 @@ section
 }
 .footer_social ul li a i
 {
-	color: #20d34a;
+	color: #EB1A1A;
 	padding: 5px;
 	font-size: 14px;
 	-webkit-transition: all 200ms ease;
